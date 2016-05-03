@@ -6,15 +6,12 @@ Country Origin: Brazil
 */
 
 table {
- font-size:1.2em;
- font-family: Arial, Helvetica, verdana sans-serif;
  background-color:#fff;
  border-collapse: collapse;
- width: 90%;
- margin-left:auto;
- margin-right: auto;
  border-radius:5px;
  background-color: #F0F0F0;
+ font: 0.8em sans-serif;
+ width:100%;
 }
 caption {
  font-size: 25px;
@@ -65,7 +62,6 @@ tbody td a, tbody th a {
  font-weight:normal; 
  display:block;
  background: transparent url(http://www.nghorta.com/csstg/links_yellow.gif) no-repeat 0% 50%;
- padding-left:15px;
 }
 tbody td a:hover, tbody th a:hover {
  color:#009193;

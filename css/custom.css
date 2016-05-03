@@ -65,6 +65,13 @@ only screen and (min-width: 1280px) and (min-resolution: 1.5dppx) {
     text-align: justify;
 }
 
+.mob-title{
+  height: 2.44444rem;
+  line-height: 2.44444rem;
+  width: 100%;
+  text-align: center;
+}
+
 @media only screen and (max-width: 800px) {
   .soc li a{
     width: 32px;
