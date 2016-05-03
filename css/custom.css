@@ -1,0 +1,66 @@
+
+#header-img {
+	background-image: url(../img/cover320.jpg);
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 1.5/1),
+only screen and (min-resolution: 144dpi),
+only screen and (min-resolution: 1.5dppx) {
+	#header-img {
+    	background-image: url(../img/cover640.jpg);
+	}
+}
+
+@media only screen and (min-width: 480px) {
+	#header-img {
+    	background-image: url(../img/cover480.jpg);
+	}
+}
+
+@media only screen and (min-width: 480px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-width: 480px) and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-width: 480px) and (-o-min-device-pixel-ratio: 1.5/1),
+only screen and (min-width: 480px) and (min-resolution: 144dpi),
+only screen and (min-width: 480px) and (min-resolution: 1.5dppx) {
+	#header-img {
+    	background-image: url(../img/cover.jpg);
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	#header-img {
+    	background-image: url(../img/cover768.jpg);
+	}
+}
+
+@media only screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-width: 768px) and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-width: 768px) and (-o-min-device-pixel-ratio: 1.5/1),
+only screen and (min-width: 768px) and (min-resolution: 144dpi),
+only screen and (min-width: 768px) and (min-resolution: 1.5dppx) {
+	#header-img {
+    	background-image: url(../img/cover1536.jpg);
+	}
+}
+
+@media only screen and (min-width: 1280px) {
+	#header-img {
+    	background-image: url(../img/cover1024.jpg);
+	}
+}
+
+@media only screen and (min-width: 1280px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-width: 1280px) and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-width: 1280px) and (-o-min-device-pixel-ratio: 1.5/1),
+only screen and (min-width: 1280px) and (min-resolution: 144dpi),
+only screen and (min-width: 1280px) and (min-resolution: 1.5dppx) {
+	#header-img {
+    	background-image: url(../img/cover2048.jpg);
+	}
+}
+
+.container p{
+    text-align: justify;
+}
